@@ -1,0 +1,21 @@
+name: Monitor YouTube channel and trigger action on new video's
+
+on:
+  schedule:
+    - cron: "30 11 * * *"    #runs at 11:30 UTC everyday
+  workflow_dispatch:
+
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+      
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v3 # checkout the repository content to github runner.
+        with:
+          token: ${{secrets.PERSONAL_ACCESS_TOKENS}}
+      - name: Monitor YouTube Channel for new Videos
+        uses: abe-101/Sync-YouTube-Podcast@main
+
