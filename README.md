@@ -12,5 +12,5 @@ Building on the great work of the fellows at [Schrodinger-Hat](https://github.co
 	- *ANCHOR_EMAIL*
 	- *ANCHOR_PASSWORD*.
 	- *PERSONAL_ACCESS_TOKENS*  
-		- [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) and [Triggering a workflow from a workflow](https://docs.github.com/en/actions/using-workflows/triggering-a-workflow#triggering-a-workflow-from-a-workflow)
+		- [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token) and [Triggering a workflow from a workflow](https://docs.github.com/en/actions/using-workflows/triggering-a-workflow#triggering-a-workflow-from-a-workflow)  
 This environment variables are mandatory as they specify the sign in account.
