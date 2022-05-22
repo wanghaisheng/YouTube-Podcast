@@ -21,7 +21,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - name: Save YouTube metadata in JSON db
+      - name: Trigger YouTube-to-Anchor action
         uses: abe-101/youtube-to-anchorfm@main
         env:
           ANCHOR_EMAIL: ${{ secrets.ANCHOR_EMAIL }}
