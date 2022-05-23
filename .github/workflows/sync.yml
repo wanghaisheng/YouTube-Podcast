@@ -2,7 +2,7 @@ name: Monitor YouTube channel and trigger action on new video's
 
 on:
   schedule:
-    - cron: "30 11 * * *"    #runs at 11:30 UTC everyday
+    - cron: "30 07 * * *"    #runs at 07:30 UTC everyday
   workflow_dispatch:
 
 
