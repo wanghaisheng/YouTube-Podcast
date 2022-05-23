@@ -18,4 +18,5 @@ jobs:
           token: ${{secrets.PERSONAL_ACCESS_TOKENS}}
       - name: Monitor YouTube Channel for new Videos
         uses: abe-101/Sync-YouTube-Podcast@main
-
+        env:
+          YOUTUBE_CHANNEL_ID: ${{ secrets.YOUTUBE_CHANNEL_ID }}
